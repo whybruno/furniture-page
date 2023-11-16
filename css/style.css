@@ -13,7 +13,7 @@ body {
     "featuredProduct CTA";
   margin: 0px 5%;
   min-height: 31.25rem;
-  height: 90vh;
+  height: 70vh;
 }
 
 /* Grid Sections Settings */
@@ -91,26 +91,26 @@ body {
 
 .icons img {
   cursor: pointer;
-  margin: 15px;
+  margin: 1rem;
 }
 
 /* Heading Settings */
 
 h2 {
   color: #FF6200;
-  font-size: 60px;
+  font-size: 3.75rem;
   margin: 0px 0px;
 }
 
 h3 {
-  font-size: 32px;
+  font-size: 2rem;
   font-weight: 300;
   margin: 0px 0px;
 }
 
 h4 {
   color: white;
-  font-size: 22px;
+  font-size: 1.35rem;
   font-weight: 400;
 }
 
@@ -132,8 +132,76 @@ h4:hover {
 
 #headline p {
   color: #636364;
-  font-size: 16px;
+  font-size: 1rem;
   font-weight: 300;
   margin: 0px 0px;
-  max-width: 350px;
+  max-width: 21.85rem;
+}
+
+.subHeading {
+  border-bottom: 2px solid black;
+  margin: 50px auto;
+  text-align: center;
+  width: 18.75rem;
+}
+
+/* categoryGrid Settings */
+
+#categoryGrid {
+  display: grid;
+  margin: 0px 5%;
+  grid-template-rows: repeat(3, 18.75rem);
+  grid-template-columns: repeat(3, 1fr) ;
+  grid-template-areas:
+    "bookcases bedroom couches"
+    "patio patio couches"
+    "desks desks desks";
+}
+
+#bookcases {
+  background-image: url(../images/bookcases.png);
+  grid-area: bookcases;
+}
+
+#bedroom {
+  background-image: url(../images/beds.png);
+  grid-area: bedroom;
+}
+
+#couches {
+  background-image: url(../images/couch.png);
+  grid-area: couches;
+}
+
+#patio {
+  background-image: url(../images/patio.png);
+  grid-area: patio;
+}
+
+#desks {
+  background-image: url(../images/desks.png);
+  grid-area: desks;
+}
+
+.categoryGridArea {
+  align-content: end;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  cursor: pointer;
+  display: grid;
+  margin: 5px;
+}
+
+.heading {
+  background-color: rgba(0,0,0,0.7);
+  border-bottom: 5px solid #FF6200;
+  color: white;
+  font-size: 1.15rem;
+  padding: 1rem;
+  height: 1.60rem;
+}
+
+.heading:hover {
+  color: #FF6200;
 }
