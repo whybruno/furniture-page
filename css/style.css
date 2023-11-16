@@ -205,3 +205,54 @@ h4:hover {
 .heading:hover {
   color: #FF6200;
 }
+
+@media only screen and (max-width: 62.5rem) {
+  #navigation {
+    display: none;
+  }
+
+  .icons {
+    margin-left: auto;
+  }
+
+  h4 {
+    font-size: 1.35rem;
+  }
+
+  #CTA img {
+    width: 1.5rem;
+  }
+}
+
+@media only screen and (max-width: 37.5rem) {
+  #headline {
+    position: static;
+    margin: 1.25rem;
+  }
+
+  #heroGrid {
+    grid-template-columns: 1fr;
+    grid-template-areas: 
+      "featuredProduct featuredProduct"
+      "secondaryProduct CTA";
+  }
+
+  #categoryGrid {
+    grid-template-rows: repeat(5, 18.75rem);
+    grid-template-columns: 1fr;
+    grid-template-areas:
+      "bookcases"
+      "bedroom"
+      "patio"
+      "couches"
+      "desks";
+  }
+
+  h4 {
+    font-size: 1rem;
+  }
+
+  #CTA img {
+    display: none;
+  }
+}
