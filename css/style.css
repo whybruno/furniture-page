@@ -153,8 +153,8 @@ h4:hover {
   grid-template-rows: repeat(3, 18.75rem);
   grid-template-columns: repeat(3, 1fr) ;
   grid-template-areas:
-    "bookcases bedroom couches"
-    "patio patio couches"
+    "bookcases bedroom patio"
+    "couches couches patio"
     "desks desks desks";
 }
 
@@ -210,7 +210,7 @@ h4:hover {
   #navigation {
     display: none;
   }
-
+  
   .icons {
     margin-left: auto;
   }
