@@ -10,7 +10,7 @@
 
 # :first_quarter_moon: Screenshot
 
-![screenshot of the on my own page layout](./images/screenshot.png)
+![screenshot of the on my own page layout](./screenshot.png)
 
 # :waxing_crescent_moon: Technologies
 
