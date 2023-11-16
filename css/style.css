@@ -1,0 +1,139 @@
+body {
+  font-family: 'Poppins', sans-serif;
+}
+
+/* Grid Settings */
+    
+#heroGrid {
+  display: grid;
+  grid-template-rows: 75% 25%;
+  grid-template-columns: 75% 25%;
+  grid-template-areas: 
+    "featuredProduct secondaryProduct"
+    "featuredProduct CTA";
+  margin: 0px 5%;
+  min-height: 31.25rem;
+  height: 90vh;
+}
+
+/* Grid Sections Settings */
+
+#featuredProduct {
+  background-image: url(../images/furniture1.png);
+  grid-area: featuredProduct;
+}
+
+#secondaryProduct {
+  background-image: url(../images/furniture2.png);
+  grid-area: secondaryProduct;
+}
+
+#CTA {
+  background-image: url(../images/woodbg.png);
+  cursor: pointer;
+  display: flex;
+  grid-area: CTA;
+  justify-content: space-between;
+  padding: 2rem;
+}
+
+.heroGridArea {
+  align-items: center;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  position: relative;
+}
+
+/* Navbar Settings */
+
+#navBar {
+  display: flex;
+  flex-direction: row;
+  margin: 0px 5%;
+}
+
+#navBar h1 {
+  font-weight: 500;
+  width: 25%;
+}
+
+#navigation {
+  align-items: center;
+  display: flex;
+  justify-content: space-evenly;
+  width: 50%;
+}
+
+#navigation p {
+  cursor: pointer;
+  text-decoration: none;
+}
+
+#navigation p:hover {
+  color: #FF6200;
+}
+
+.highlight {
+  color: #FF6200;
+  font-weight: 700;
+}
+
+/* Icons Sections Settings */
+
+.icons {
+  align-items: center;
+  display: flex;
+  justify-content: flex-end;
+  width: 25%;
+}
+
+.icons img {
+  cursor: pointer;
+  margin: 15px;
+}
+
+/* Heading Settings */
+
+h2 {
+  color: #FF6200;
+  font-size: 60px;
+  margin: 0px 0px;
+}
+
+h3 {
+  font-size: 32px;
+  font-weight: 300;
+  margin: 0px 0px;
+}
+
+h4 {
+  color: white;
+  font-size: 22px;
+  font-weight: 400;
+}
+
+h4:hover {
+  color: #FF6200;
+}
+
+/* Headline DIV Settings */
+
+#headline {
+  background-color: rgba(255,255,255,0.8);
+  border-bottom: 5px solid #FF6200;
+  padding: 2rem;
+  position: absolute;
+  right: -5%;
+  top: 20%;
+  z-index: 1;
+}
+
+#headline p {
+  color: #636364;
+  font-size: 16px;
+  font-weight: 300;
+  margin: 0px 0px;
+  max-width: 350px;
+}
