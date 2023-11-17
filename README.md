@@ -5,26 +5,30 @@
 # :waxing_gibbous_moon: Features
 
 - Clean Code
-- Grid Layout Skills
-- Semantic HTML
+- CSS Grid Layout
+- HTML Semantic
 
 # :first_quarter_moon: Screenshot
 
-![screenshot of the on my own page layout](./screenshot.png)
+![screenshot of the furniture webpage](./assets/images/screenshot.png)
 
-# :waxing_crescent_moon: Technologies
+# :waxing_crescent_moon: Philosophy
+
+N/A
+
+# :new_moon: Technologies
 
 - HTML
 - CSS
 
-# :new_moon: Credits
+# :globe_with_meridians: Website
+
+- [Furniture](https://whybruno.github.io/furniture-page)
+
+# :copyright: Credits
 
 N/A
 
-# :earth_americas: Visit The Website
-
-- [Jakes Eatery](https://whybruno.github.io/furniture-page)
-
-# :globe_with_meridians: License
+# :registered: License
 
 MIT License
